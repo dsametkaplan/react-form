@@ -36,34 +36,7 @@ function Login() {
     
     <Fragment>
         
-{/*        
-            <div className="text-center mt-5">
-                 <form onSubmit={onSubmit } className="login">
-                 
-            <h1 className="text-center mt-2 text-monospace">Login</h1>
-        
-                
-            <div className="form-group">
-                <label htmlFor="exampleInputEmail1" className="sr-only">Email</label>
-                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" value={email} onChange={e=>setEmail(e.target.value)}/>
-                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-                
-                </div>
-                
-                <div className="form-group">
-                    <label htmlFor="exampleInputPassword1" className="sr-only">Password</label>
-                    <input type="password" className="form-control" id="" placeholder="Enter Password" value={password} onChange={e=>setPassword(e.target.value)}/>
-                </div>
-                
-                <button type="submit" className="btn btn-lg btn-block btn-outline-primary">Submit</button>
- 
 
-        </form>
-                     <div>  
-                     <Link to="/register ">Don't have an account</Link>
-                  
-                         </div>
-            </div> */}
             <div className="limiter">
   <div className="container-login100" style={{backgroundImage: 'url("images/bg-01.jpg")'}}>
     <div className="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
