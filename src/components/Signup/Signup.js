@@ -27,41 +27,7 @@ function SignUp() {
 
   return (
     <Fragment>
-      {/*        
-            <div className="text-center mt-5">
-                 <form onSubmit={onSubmit } className="login" id="">
-                 
-            <div>
-                <h1 className="text-center mt-2 text-monospace" id="headerTitle">SignUp</h1>
-            </div>
-            <div className="form-group">
-                <label htmlFor="exampleInputFirstName" className="sr-only" id ="sa">First Name</label>
-                <input type="text" className="form-control" id="exampleInputFirstName1" aria-describedby="emailHelp" placeholder="Enter First Name "
-                 value={first_name} 
-                 onChange={e=>setFirst_name(e.target.value)} />
-                
-                                </div>
-            <div className="form-group">
-                <label htmlFor="exampleInputLastName1" className="sr-only">Last Name</label>
-                <input type="text" className="form-control" id="exampleInputLastName1" placeholder="Last Name" value={last_name} onChange={e=>setLast_name(e.target.value)}/>
-                                </div>
-            <div className="form-group">
-                <label htmlFor="exampleInputEmail1" className="sr-only">Email</label>
-                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email (we'll never share your email with anyone else.) " value={email} onChange={e=>setEmail(e.target.value)}/>
-                
-                
-                                </div>
-                
-                <div className="form-group">
-                    <label htmlFor="exampleInputPassword1" className="sr-only">Password</label>
-                    <input type="password" className="form-control" id="" placeholder="Enter Password" value={password} onChange={e=>setPassword(e.target.value)}/>
-                </div>
-
-                <button type="submit" className="btn btn-lg btn-block btn-primary">Submit</button>
-                <Link to="/ ">Have an account? </Link>
-
-        </form>
-            </div> */}
+     
       <div className="limiter">
         <div
           className="container-login100"
